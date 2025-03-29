@@ -1,0 +1,90 @@
+body{
+   
+    font-family: 'Open Sans', sans-serif;
+    text-align:left;
+    padding: 0 20px;
+    
+}
+
+h1,h2 {
+    font-family: 'Bebas Neue' sans-serif;
+    text-align: left;
+    margin: 20px auto ;
+}
+.container{
+    width: 90%;
+    height: 500px;
+    background-image: url('/wwr/style/images/rafting14_600.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    position: relative;
+    padding: 20px;
+    color: white;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.targe{
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: 20px auto;
+    color: white;
+    width: 90%;
+    position: absolute;
+    top: 15%;
+    height: 40px;
+    text-align: center; 
+
+}
+.targe-extra{
+    background: rgba(0,0,255,0.5);
+    padding: 20px;
+    color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.rafting{
+    width: 80px;
+    height: 80px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+footer{
+    text-align: left;
+    padding: 0 40px;
+    
+}
+
+h2{
+    padding: 0 40px;
+}
+p{
+    padding: 0 40px;
+}
+.footer-div{
+    text-align: left;
+}
+a{
+    text-align: left;
+}
+
+
