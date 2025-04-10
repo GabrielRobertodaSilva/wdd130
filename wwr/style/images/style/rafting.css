@@ -51,8 +51,8 @@ footer a{
 .tarja2{
     position: absolute;
     top: 450px;
-    left: 40%;
-    width: 50%;
+    left: 10%;
+    width: 80%;
     background-color: rgba(0,0,255,0.4);
     display: flex;
     justify-content: space-between;
