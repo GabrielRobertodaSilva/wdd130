@@ -72,3 +72,46 @@ footer a{
     width: 70%;
     margin-bottom: 20px;
  }
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #f8f8f8;
+}
+
+header img {
+    max-height: 200px; /* ajuste conforme o tamanho da sua logo */
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #007bff;
+}
+section figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+section figure img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+section figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+}
