@@ -1,90 +1,74 @@
 body{
-   
+    color: white;
     font-family: 'Open Sans', sans-serif;
-    text-align:left;
-    padding: 0 20px;
+    background-color: #70A9A1;
+    padding: 16px;
+}
+nav{
     
-}
-
-h1,h2 {
-    font-family: 'Bebas Neue' sans-serif;
-    text-align: left;
-    margin: 20px auto ;
-}
-.container{
-    width: 90%;
-    height: 500px;
-    background-image: url('/wwr/style/images/rafting14_600.jpg');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 20px auto;
-    position: relative;
-    padding: 20px;
-    color: white;
-    justify-content: center;
-}
-
-h1{
-    text-align: center;
-}
-
-.targe{
-    background: rgba(0,0,0,0.5);
-    padding: 20px;
-    margin: 20px auto;
-    color: white;
-    width: 90%;
-    position: absolute;
-    top: 15%;
-    height: 40px;
-    text-align: center; 
-
-}
-.targe-extra{
-    background: rgba(0,0,255,0.5);
-    padding: 20px;
-    color: white;
-    width: 50%;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    padding: 16px;
 
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    
 }
-
-.rafting{
-    width: 80px;
-    height: 80px;
-}
-.gallery{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-}
-footer{
-    text-align: left;
-    padding: 0 40px;
-    
-}
-
-h2{
-    padding: 0 40px;
-}
-p{
-    padding: 0 40px;
-}
-.footer-div{
-    text-align: left;
+h1, h2{
+    font-family: 'Bebas Neue', sans-serif;
 }
 a{
-    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
+footer a{
+    margin: 10px;
 
+}
+.tarjamain{
+    position: relative;
+    width: 100%;
+}
+.tarjamain img{
+    width: 100%;
+    display: block;
+}
+.text{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    transform: translate(-50%, );
+    width: 96%;
+    background-color: rgba(0, 0 ,0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 40px;
+    text-align: center;
+}
+.tarja2{
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    width: 50%;
+    background-color: rgba(0,0,255,0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+.text2{
+    font-size: 14px;
+
+}
+.tarja2 img{
+    height: 100px;
+}
+ section img{
+    display: block;
+    width: 70%;
+    margin-bottom: 20px;
+ }
