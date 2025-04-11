@@ -81,7 +81,7 @@ footer a{
 }
 
 header img {
-    max-height: 200px; /* ajuste conforme o tamanho da sua logo */
+    max-height: 200px;
 }
 
 header nav {
@@ -114,4 +114,10 @@ section figcaption {
     margin-top: 5px;
     font-size: 14px;
     color: white;
+}
+footer p{
+    font-size: 14px;
+    text-align: center;
+    
+
 }
