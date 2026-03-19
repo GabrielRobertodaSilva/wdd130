@@ -81,7 +81,7 @@ footer {
 /* Class selector */
 .box {
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0, .1);
+    border: 1px solid rgb(0, 0, 0, 10%);
     padding: 1rem;
     background-color: #eee;
     color: #000;
@@ -99,7 +99,7 @@ footer {
 }
 
 .profile img {
-    width: 200px;
+    width: 100px;
     height: 100%;
     object-fit: cover;
 }
