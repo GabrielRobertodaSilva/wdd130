@@ -13,7 +13,7 @@
     /*dark slate blue*/
     --accent2-color: #e9c46a;
     /*light dolden yellow*/
-    --heading-font: "Times new Roman", "Georgia" serif;
+    --heading-font: "Times new Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 
 }
@@ -39,7 +39,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -52,7 +52,11 @@ article {
 
 }
 
-.socialmedia {
+footer a {
+    text-decoration: none;
+}
+
+nav a {
     text-decoration: none;
 }
 
@@ -105,4 +109,8 @@ h1 {
     background-color: rgba(38, 70, 83, 0.8);
     color: white;
     padding: 16px;
+}
+
+nav ul {
+    list-style: none;
 }
