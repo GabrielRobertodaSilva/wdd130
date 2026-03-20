@@ -84,7 +84,6 @@ h1 {
 }
 
 .hero article img {
-    float: right;
     width: 120px;
     margin-left: 15px;
 }
@@ -103,14 +102,22 @@ h1 {
 .hero article {
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 10;
+    right: 10;
     margin-right: 10px;
     background-color: rgba(38, 70, 83, 0.8);
     color: white;
     padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row-reverse;
 }
 
 nav ul {
     list-style: none;
+}
+
+.hero article p {
+    flex: 1;
 }
