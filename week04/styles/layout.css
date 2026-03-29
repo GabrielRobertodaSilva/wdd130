@@ -21,10 +21,12 @@ header {
 .navigation {
     display: flex;
     list-style: none;
+
 }
 
 .navigation li {
     flex: 1 1 auto;
+
 }
 
 .navigation a {
@@ -63,9 +65,19 @@ section {
     width: min(800px, 100%);
 }
 
-
 code {
     font-family: 'Courier New', Courier, monospace;
     font-size: smaller;
     padding: 0.5em;
 }
+
+figure {
+    border: thin silver solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+<figure > <img src="images/adventure1.webp" alt="Half Day Adventure" > <figcaption > Half Day Adventure</figcaption > <img src="images/adventure2.webp" alt="Radical descent" > <figcaption > Radical descent</figcaption > </figure > <figure > <img src="images/adventure3.webp" alt="Big Mallard" > <figcaption > Big Mallard</figcaption > </figure > <figure > <img src="images/adventure4.webp" alt="fierce rapids" > <figcaption > Fierce rapids</figcaption > </figure > <figure > <img src="images/adventure5.jpg" alt="Los Dientes del Diablo" > <figcaption > Los Dientes del Diablo</figcaption > </figure > </section >
