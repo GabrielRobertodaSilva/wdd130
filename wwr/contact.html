@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Extreme Flow Rafting</title>
-    <meta name="description" content="Our channel for information, questions, and suggestions.">
+    <meta name="description"
+      content="Contact Extreme Flow Rafting for reservation, question, or suggestion about our rafting adventures.">
     <meta name="author" content="Gabriel Roberto da Silva">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -29,7 +30,7 @@
 
 
             <div class="contact-info">
-                <h1>Contact Us</h1>
+                <h1>Extreme Flow Rafting</h1>
 
                 <p>
                     123 Main River Street<br>
@@ -56,18 +57,25 @@
 
                     <p>Purpose of Message:</p>
 
-                    <label><input type="radio" name="purpose" value="general"> General
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general"> General
                         Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation
+
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation
                         Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website
+
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website
                         Suggestion</label>
 
                     <label for="message">Message:</label>
                     <textarea id="message" name="message"></textarea>
 
-                    <label>
-                        <input type="checkbox" name="subscribe">
+                    <label for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe">
                         Please subscribe me to the monthly newsletter
                     </label>
 
@@ -81,20 +89,24 @@
         <section class="employees">
             <h2>We Are Here to Serve You</h2>
 
-            <figure>
-                <img src="images/employee1.jpg" alt="John Smith">
-                <figcaption>John Smith - Guide</figcaption>
-            </figure>
+            <div class="employee-list">
+                <figure>
+                    <img src="images/employee1.jpg" alt="John Smith">
+                    <figcaption>John Smith - Guide</figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/employee2.jpg" alt="Mary Johnson">
-                <figcaption>Mary Johnson - Manager</figcaption>
-            </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Mary Johnson">
+                    <figcaption>Mary Johnson - Manager</figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/employee3.jpg" alt="Lucas Brown">
-                <figcaption>Lucas Brown - Instructor</figcaption>
-            </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Lucas Brown">
+                    <figcaption>Lucas Brown - Instructor</figcaption>
+                </figure>
+            </div>
+
+
         </section>
 
     </main>
