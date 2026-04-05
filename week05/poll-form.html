@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="fullname">Full name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email Adress:</label>
+            <input type="text" id="useremail" name="useremail" required>
+
+            <label for="quantity">What is your favorite browser?</label>
+            <select name="quantity" id="quantity">
+                <option value="1">Chrome</option>
+                <option value="2">Safari</option>
+                <option value="3">Edge</option>
+                <option value="4">Brave</option>
+                <option value="5">Other</option>
+            </select>
+
+            <label> <input type="checkbox" name="pet" id="pet"></label>
+
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" name="feedback" rows="4"></textarea>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>©2026 | HTML Form - User Poll Activity | Gabriel Roberto da Silva</footer>
+</body>
+
+</html>
